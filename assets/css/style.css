@@ -1,0 +1,188 @@
+/* general text formatting */
+h1,
+h2,
+h3,
+summary,
+nav,
+footer,
+div,
+label, 
+nav ul li .a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  
+}
+
+/* header and footer */
+header,
+footer {
+  color: white;
+  background-color: #4b4b4b;
+}
+
+header h1 {
+  padding: 8px 0 0 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 16px;
+  padding: 0 0 0 20px;
+  padding-bottom: 30px;
+}
+
+nav {
+  background-color: #e8e8e8;
+  position: absolute;
+  left: 3%;
+  width: 12%;
+  height: 100%;
+  list-style-type: none; 
+  text-align: center;
+}
+
+nav ul li, nav ul li a{
+  vertical-align: middle;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  padding: 5px;
+} 
+nav li:hover {
+  background-color: #808080;
+}
+
+.currentPage {
+  color: white;
+  background-color: #a6a6a6;
+}
+
+/* main article styling */
+main {
+  background-color: white;
+  position: absolute;
+  width: 68%;
+  left: 15%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.userInfo{
+  position: absolute;
+  width: 12%;
+  left: 85%;
+  list-style-type: none; 
+  text-align: center;
+  background-color: #e8e8e8;
+  height: 100%;
+  font-weight: bold;
+}
+
+.userInfo ul{
+  list-style-type: none;
+}
+.userInfo ul li{
+  padding: 3px;
+}
+
+
+section {
+  /* margin-left: 16%;
+  padding-top: 10px; */
+  width: 100%;
+  float: left;
+}
+
+/* Form style */
+legend, h3 {
+  margin: 0;
+  padding: 5px 0px;
+  height: 27.2px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 21.6px;
+  color: #ffffff;
+  background-color: #808080;
+}
+
+legend span, h3 span{
+  display: inline;
+  padding: 0px 0px 0px 15px;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  background-color: #e8e8e8;
+  width: 100%;
+  border: none;
+}
+
+form p {
+  margin-top: 8px;
+  margin-left: 16px;
+  padding: 0px 0px 0px 5px;
+}
+form input,
+select {
+  margin: 5px;
+}
+
+form input[type="submit"],
+input[type="reset"] {
+  margin: 10px 10px 10px 20px;
+  font-size: medium;
+  text-transform: capitalize;
+}
+
+section h2 {
+  font-size: 21.6px;
+  background-color: #919191;
+  height: 27.2px;
+  color: #f0f0f0;
+  border: solid 1px black;
+  text-transform: uppercase;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px 0;
+}
+
+td img {
+  margin: 16px 0px;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.userInfo ul li img {
+  margin: 16px 0px;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+
+article {
+  border: solid rgb(214, 209, 209);
+  margin-top: 5px;
+  padding: 10px;
+}
+
+details p{
+  padding: 15px;
+}
+
+summary{
+  font-weight: bold;
+}
