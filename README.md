@@ -1,2 +1,2 @@
 # SYSCX
-A local version of X (Twitter) for SYSC  students. HTML, CSS, JS, PHP, and SQL languages are used to create the web application. 
+A locally deployed version of X (Twitter) for SYSC (Systems and Computer Engineering) students using XAMPP. HTML, CSS, JS, PHP, and SQL languages are used to create the web application. 
