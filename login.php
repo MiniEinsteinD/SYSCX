@@ -62,9 +62,9 @@ if(isset($_POST['login'])) {
 
    <nav>
       <ul>
-         <li><a href="http://127.0.0.1/SYSC4504_Labs/Daniah_Mohammed_a03/index.php">Home</a></li>
-         <li><a href="http://127.0.0.1/SYSC4504_Labs/Daniah_Mohammed_a03/register.php">Register</a></li>
-         <li><a href="http://127.0.0.1/SYSC4504_Labs/Daniah_Mohammed_a03/login.php">Log in</a></li>
+         <li><a href="http://127.0.0.1/SYSC4504_Labs/SYSCX/index.php">Home</a></li>
+         <li><a href="http://127.0.0.1/SYSC4504_Labs/SYSCX/register.php">Register</a></li>
+         <li><a href="http://127.0.0.1/SYSC4504_Labs/SYSCX/login.php">Log in</a></li>
       </ul>
    </nav>
 

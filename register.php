@@ -23,19 +23,19 @@
         // Check if the user is logged in
         if (isset($_SESSION['student_id'])) {
             // Regular user or admin
-            echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/Daniah_Mohammed_a03/index.php">Home</a></li>';
-            echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/Daniah_Mohammed_a03/profile.php">Profile</a></li>';
-            echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/Daniah_Mohammed_a03/logout.php">Log out</a></li>';
+            echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/SYSCX/index.php">Home</a></li>';
+            echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/SYSCX/profile.php">Profile</a></li>';
+            echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/SYSCX/logout.php">Log out</a></li>';
             
             // Check if the user is an admin
             if ($_SESSION['account_type'] == 'Admin') {
-                echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/Daniah_Mohammed_a03/user_list.php">User List</a></li>';
+                echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/SYSCX/user_list.php">User List</a></li>';
             }
         } else {
             // Not logged in
-            echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/Daniah_Mohammed_a03/index.php">Home</a></li>';
-            echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/Daniah_Mohammed_a03/login.php">Login</a></li>';
-            echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/Daniah_Mohammed_a03/register.php">Register</a></li>';
+            echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/SYSCX/index.php">Home</a></li>';
+            echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/SYSCX/login.php">Login</a></li>';
+            echo '<li><a href="http://127.0.0.1/SYSC4504_Labs/SYSCX/register.php">Register</a></li>';
         }
       ?>
      </ul>
